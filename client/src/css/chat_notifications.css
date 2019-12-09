@@ -1,0 +1,25 @@
+#chat_list_container {
+    display: grid;
+    grid-template-columns: auto auto auto 350px;
+    display: flex;
+    flex: 1;
+}
+
+#chat_list {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.chat_notification_item {
+    display: flex;
+    flex: 1;
+    background-color: cornflowerblue;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 5px;
+}

@@ -1,0 +1,16 @@
+#profile_overview_container{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+
+}
+
+.top_section {
+    display: flex;
+    align-items: stretch;
+}
+
+.bottom_section {
+    display: flex;
+    align-items: stretch;
+}

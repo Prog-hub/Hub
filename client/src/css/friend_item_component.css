@@ -1,0 +1,17 @@
+
+.cool {
+    display: flex;
+    align-items: center;
+    background-color: #222831;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2px;
+    grid-column: 1/2;
+    height: 65px;
+    color: 	#eeeeee;
+}
+.cool:hover {
+    transition:all 0.5s ease;
+    background:#6495ED;
+    color: #222831;
+}

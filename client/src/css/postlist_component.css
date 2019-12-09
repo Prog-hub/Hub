@@ -1,0 +1,12 @@
+#postlist_container {
+    grid-column: 1/4;
+    margin: 10px;
+    overflow-y: scroll;
+    /* height: 700px; */
+    display: flex;
+    align-self: stretch;
+    /* justify-content: stretch; */
+    /* align-items: stretch; */
+    flex-grow: 1;
+    flex-direction: column;
+}

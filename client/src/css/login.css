@@ -1,0 +1,33 @@
+.loginform{
+    /*max-width: 15%; */
+    width: 100%;
+    height: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.loginform * {
+   /* margin: 5px 5px 0px 0px; */
+}
+
+
+.loginform form{
+    max-width: 15%;
+
+}
+
+#fields{
+    display:flex;
+    justify-content: center;
+
+}
+input{
+    width: 100%;
+}
+
+
+.loginform label{
+    display:flex;
+    justify-content: center;
+}

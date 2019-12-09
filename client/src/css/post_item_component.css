@@ -1,0 +1,17 @@
+.post_item_container {
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: cornflowerblue;
+}
+
+.top_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_date {
+    color: gold;
+    font-size: 10px;
+}

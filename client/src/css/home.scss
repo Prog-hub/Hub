@@ -1,0 +1,35 @@
+.rubber_button {
+    background: #d65a31;
+    width: 180px;
+    font-size: 20px;
+    padding: 4px 0;
+    outline: 0;
+    border-radius: 3px;
+    border: 0;
+    p {
+      font-family: 'Roboto'; 
+        text-align: center;
+      text-transform: uppercase;
+      color: #FFF;
+      user-select: none;
+    }
+    
+    &:hover {
+      cursor: pointer;
+    }
+    
+  }
+
+.rubber_button:hover {
+    background-color: #393e46;
+    color: azure;
+}
+
+
+.explore_text {
+    font-family: 'Monda', sans-serif;
+    color: azure;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}

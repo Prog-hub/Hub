@@ -1,0 +1,32 @@
+.profile_wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto 350px;
+    background-color: #222831;
+    border-radius: 5px;
+    /*width: 100%;
+    height: 100%; /* change 92 in case of vh problems */
+    padding: 5px;
+    display: flex;
+    flex: 1;
+}
+
+.profile_content_section {
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 450px auto auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    flex: 3;
+    width: 150px;
+}
+
+.friendlist_section {
+    grid-column: 4/5;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+    width: 250px;
+}

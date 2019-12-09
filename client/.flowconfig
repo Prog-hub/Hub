@@ -1,0 +1,17 @@
+[ignore]
+;saker utan typer
+[include]
+; mappar/delmappar som det ska kollas typer för
+
+[libs]
+./type-def-libs/css-module
+./type-def-libs/auth
+[lints]
+
+[options]
+
+module.name_mapper='^Components' ->'<PROJECT_ROOT>/src/components'
+module.name_mapper='^\(.*\)\.css$' -> 'CSSModule'
+module.name_mapper='auth.js'  -> 'Auth'
+module.system=haste
+[strict]
